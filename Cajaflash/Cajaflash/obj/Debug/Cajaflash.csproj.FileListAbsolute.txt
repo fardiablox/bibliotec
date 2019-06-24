@@ -1,0 +1,17 @@
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\bin\Debug\Cajaflash.exe.config
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\bin\Debug\Cajaflash.exe
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\bin\Debug\Cajaflash.pdb
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash.csprojAssemblyReference.cache
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\App.g.cs
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash_MarkupCompile.cache
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash_MarkupCompile.lref
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash.g.resources
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash.Properties.Resources.resources
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash.csproj.GenerateResource.cache
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash.exe
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\Cajaflash.pdb
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\VISTAS\Usuario.g.cs
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\VISTAS\Usuario.baml
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\VISTAS\VCategoria.g.cs
+C:\Users\franc\OneDrive\Documentos\cajaflash\Cajaflash\Cajaflash\obj\Debug\VISTAS\VCategoria.baml

@@ -1,0 +1,35 @@
+﻿<Window x:Class="Cajaflash.VISTAS.Usuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cajaflash.VISTAS"
+        mc:Ignorable="d"
+        Title="Usuario" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="296*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="131,73,0,0" VerticalAlignment="Top"/>
+        <Label Content="Clave" HorizontalAlignment="Left" Margin="131,104,0,0" VerticalAlignment="Top"/>
+        <Label Content="Tipo" HorizontalAlignment="Left" Margin="131,135,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtnombre" HorizontalAlignment="Left" Height="23" Margin="16.074,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name="txtclave" HorizontalAlignment="Left" Height="23" Margin="16.074,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Button x:Name="btagregar" Content="Agregar" HorizontalAlignment="Left" Margin="177.074,77,0,0" VerticalAlignment="Top" Width="75" Click="Btagregar_Click" Grid.Column="1"/>
+        <Button x:Name="bteliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="275.074,76,0,0" VerticalAlignment="Top" Width="75" Click="Bteliminar_Click" Grid.Column="1"/>
+        <Button x:Name="bteditar" Content="Editar" HorizontalAlignment="Left" Margin="373.074,77,0,0" VerticalAlignment="Top" Width="75" Click="Bteditar_Click" Grid.Column="1"/>
+        <Label x:Name="lbrespuesta" Content="" HorizontalAlignment="Left" Margin="258.074,143,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <DataGrid x:Name="dataGrid_USA" ItemsSource="{Binding Usuarios}" AutoGenerateColumns="False" IsReadOnly="True" HorizontalAlignment="Left"  Margin="109,233,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id_usuario}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Clave" Binding="{Binding Clave}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Tipo" Binding="{Binding tipo.Id_tipo}"></DataGridTextColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="cbtipo" ItemsSource="{Binding Tipo}" DisplayMemberPath="Nombre" SelectedValuePath="Id_tipo" SelectedIndex="0" HorizontalAlignment="Left" Margin="16.074,138,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+
+    </Grid>
+</Window>
